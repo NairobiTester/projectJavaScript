@@ -1,5 +1,5 @@
 # MyProjects
-This was a personal javascript and jquery project that I used to learn how to code. The book used was "JavaScript & jQuery: Interactive front-end web development by Jon Duckett"
+This was a personal JavaScript and jQuery project that I used to learn how to code. The book used was "JavaScript & jQuery: Interactive front-end web development by Jon Duckett"
 
 https://www.javascriptbook.com/
 
