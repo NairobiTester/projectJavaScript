@@ -1,0 +1,44 @@
+/********** SLIDER **********/
+.slider {
+  max-width: 940px;
+  margin: 0px auto 30px auto;}
+
+.slide-viewer {
+    position: relative; /* needed for IE7 */
+    overflow: hidden;
+    height: 430px;}
+
+.slide-group {
+    width: 100%;
+    height: 100%;
+    position: relative;}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;}
+
+.slide:first-child {
+    display: block;}
+
+
+/********** BUTTONS **********/
+.slide-buttons {
+  text-align: center;}
+
+.slide-btn {
+  border: none;
+  background: none;
+  color: #000;
+  font-size: 200%;
+  line-height: 0.5em;}
+
+.slide-btn.active, .slide-btn:hover {
+  color: #ed8e6c;
+  cursor: pointer;}
+
+  /*** The width of the slide-viewer is not fixed, so it works in a responsive design. But a height does need to be specified because the 
+  slides have an absolute position (this removes them from the document flow and without it they could only be 1px tall).   
+  Each slide is shown at the same width and height as the viewer. If the content of a slide is larger than the viewer, the overflow property on 
+  the slide-viewer hides the parts of the slides that extend beyond the frame. If it is smaller it is positioned to the top-left.**/

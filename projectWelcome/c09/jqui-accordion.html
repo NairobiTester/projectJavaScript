@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <title>JavaScript &amp; jQuery - Chapter 9: APIs - jQuery UI Accordion</title>
+    <link rel="stylesheet" href="css/c09.css" />
+    <link rel="stylesheet" href="css/pepper-grinder/jquery-ui-1.10.3.custom.min.css" />
+  </head>
+  <body> 
+    <header><h1>THE MAKER BUS</h1></header>
+    <h2>Prizes</h2>
+    <div class="third img"><img src="img/toys1.jpg" alt="Circuit boards" /></div>
+    <div class="two-thirds">
+      <div id="prizes">
+        <h3>1st Prize</h3>
+        <div>
+          <p>First prize is your very own DJI Phantom - a small, all-in-one quadcopter designed for aerial photography enthusiasts. It comes fully configured and ready to fly. Both compact and stylish, the highly integrated design means that it's easy to carry wherever you go, ready at a moment's notice.</p>
+        </div>
+        <h3>2nd Prize</h3>
+        <div>
+          <p>Second prize is the Arduino Robot - the first official Arduino on wheels! The robot has two processors, one on each of its two boards. The Motor Board controls the motors, and the Control Board reads sensors and decides how to operate. Each of the boards is a full Arduino board programmable using the Arduino IDE.</p>
+        </div>
+        <h3>3rd Prize</h3>
+        <div>
+            <p>Third prize is a collection of books for the motivated maker. Includes best-selling titles <i>Makers</i> by Cory Doctorow, <i>The Maker Movement Manifesto: Rules for Innovation in the New World of Crafters, Hackers, and Tinkerers</i> by Mark Hatch, and <i>Invent To Learn: Making, Tinkering, and Engineering in the Classroom</i> by Sylvia Libow Martinez.</p>
+        </div>
+      </div><!-- #prizes -->
+    </div><!-- #two-thirds -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jqui-accordion.js"></script>   
+  </body>
+</html>
+
+<!---- Creating an accordion with jQuery UI is very simple. You only need to know:
+• How to structure your HTML
+• What element(s) should be used in the jQuery selector
+• The jQuery UI method to call
+In this example, the HTML for an accordion is contained within a <div> element (its id attribute has a value of prizes, which will
+be used in the script). Each panel of the accordion has:
+2. An <h3> element for the clickable heading
+3. A <div> element for the content of that panel
+4 . Before the closing </body> tag the jQuery and jQuery UI scripts are both included in the page.
+5. Finally, you can see a third <script> element containing an anonymous function that runs when the page has loaded.
+6. Inside that function, a standard jQuery selector picks the containing <div> element that contains the accordion (using the value of its id 
+attribute). The accordion functionality is triggered by calling the .accordion() method on that selection. -->

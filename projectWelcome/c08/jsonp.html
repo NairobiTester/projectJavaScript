@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>JavaScript &amp; jQuery - Chapter 8: Ajax &amp; JSON - JSONP</title>
+    <link rel="stylesheet" href="css/c08.css" />
+  </head>
+  <body>
+
+    <header><h1>THE MAKER BUS</h1></header>
+    <h2>The bus stops here</h2>
+    <section id="content"></section>
+
+    <script src="js/data-jsonp.js"></script>
+    <script> 
+    showEvents({
+        "events": [
+          {
+            "location": "San Francisco, CA",
+            "date": "May 1",
+            "map": "img/map-ca.png"
+          },
+          {
+            "location": "Austin, TX",
+            "date": "May 15",
+            "map": "img/map-tx.png"
+          },
+          {
+            "location": "New York, NY",
+            "date": "May 30",
+            "map": "img/map-ny.png"
+          }
+        ]
+      });
+      </script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript &amp; jQuery - Chapter 6: Events - Form Events</title>
+    <link rel="stylesheet" href="css/c06.css" />
+  </head>
+  <body>
+    <div id="page">
+      <h1>Wise King</h1>
+      <form method="post" action="http://www.example.org/register" id="formSignup">
+        <h2>Leadership</h2>
+
+        <label for="package" class="selectbox"> Vote: </label>
+        <select id="package">
+          <option value="annual">Raila Odinga & Martha Karua</option>
+          <option value="monthly">William Ruto & Rigathi Gachagua</option>
+          <option value="daily">George Wajackoya & Justina </option>
+        </select>
+        <div id="packageHint" class="tip"></div>
+
+        <input type="checkbox" id="terms" />
+        <label for="terms" class="checkbox"> Vote wisely, vote peacefully </label>
+        <div id="termsHint" class="warning"></div>
+        <input type="submit" value="Cast Vote" />
+
+       
+
+        </form>
+      </div>
+      <script src="js/form1.js"></script>
+    </body>
+</html>

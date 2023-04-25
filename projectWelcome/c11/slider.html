@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript &amp; jQuery - Chapter 11: Content Panels -  Slider</title>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+  </head>
+  <body>
+
+    <header><h1>Monsieur Pigeon</h1></header>
+    <section>
+
+      <div class="slider">
+        <div class="slide-viewer">
+          <div class="slide-group">
+            <div class="slide slide-1">
+              <img src="img/slide-1.jpg" alt="No two are the same" />
+            </div>
+            <div class="slide slide-2">
+              <img src="img/slide-2.jpg" alt="Monsieur Mints"  />
+            </div>
+            <div class="slide slide-3">
+              <img src="img/slide-3.jpg" alt="The Flower Series"  />
+            </div>
+            <div class="slide slide-4">
+              <img src="img/slide-4.jpg" alt="Salt o' The Sea"  />
+            </div>
+          </div>
+        </div>
+        <div class="slide-buttons"></div>
+      </div>
+
+    </section>
+
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/slider.js"></script>
+
+  </body>
+</html>
+<!--- In the HTML, the entire slider is contained within a <div> element whose class attribute has value of slider-viewer. In turn, the slider 
+needs two further <div> elements:
+  • A container for the slides. Its class attribute has a value of slide-group. Inside this container, each individual slide is in another <div>
+      element.
+• A container for the buttons. Its class attribute has a value of slide-buttons. The buttons are added by the script.  
+If the HTML contains markup for more than one slider, the script will automatically transform all of them into separate sliders. -->
