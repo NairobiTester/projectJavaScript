@@ -1,2 +1,2 @@
 # MyProjects
-These are my personal projects that I use to learn how to code.
+This was a personal javascript and jquery project that I used to learn how to code.
