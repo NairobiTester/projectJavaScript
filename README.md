@@ -1,4 +1,4 @@
-# JavaScriptProject
+# projectJavaScript
 This was a personal JavaScript and jQuery project that I used to learn how to code Javascript. The book used was "JavaScript & jQuery: Interactive front-end web development by Jon Duckett"
 
 https://www.javascriptbook.com/
