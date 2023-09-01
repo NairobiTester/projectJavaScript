@@ -1,5 +1,9 @@
 # projectJavaScript
-This was a personal JavaScript and jQuery project that I used to learn how to do Front-end Web Development using Javascript, HTML, CSS, and jQuery. The book used was "JavaScript & jQuery: Interactive front-end web development by Jon Duckett"
+This was a personal JavaScript and jQuery project that I used to learn how to do Front-end Web Development using Javascript, HTML, CSS, and jQuery. 
+
+Projects Link: https://nairobitester.github.io/projectJavaScript/
+
+The book used was "JavaScript & jQuery: Interactive front-end web development by Jon Duckett"
 
 https://www.javascriptbook.com/
 
